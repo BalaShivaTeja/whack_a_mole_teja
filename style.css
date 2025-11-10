@@ -1,0 +1,6 @@
+body { font-family: Arial; text-align: center; margin-top: 20px; }
+.board { width: 360px; margin: 10px auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.hole { background: #8b5e3c; height: 100px; border-radius: 8px; position: relative; overflow: hidden; cursor: pointer; }
+.mole { position: absolute; bottom: -60px; left: 50%; transform: translateX(-50%); width: 60px; height: 60px; border-radius: 50%; background: #333; transition: bottom 0.2s; }
+.mole.up { bottom: 10px; }
+button { margin-top: 12px; padding: 8px 12px; cursor: pointer; }
